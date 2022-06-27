@@ -1,11 +1,14 @@
-/* PC Responsive */
-@media (min-width:1024px){
+/* Khi responsive nên chuyển đổi đơn vị 
+ra em vì sẽ giúp ít lỗi trên nhiều trình duyệt */
+
+/* PC Responsive >1024 px*/
+@media (min-width:64em){
     #header .mobile-menu-btn{
         display: none;
     }
 }
 /* Tablet & Mobile Responsive */
-@media (max-width:1023px){
+@media (max-width:63.9375em){
     .btn{
         height: 47px;
     }
@@ -27,15 +30,15 @@
     }
 }
 
-/* Tablet Responsive */
-@media (min-width:740px) and (max-width:1023px){
+/* Tablet Responsive >740px && <1024px */
+@media (min-width:46.25em) and (max-width:63.9375em){
     #header .mobile-menu-btn{
         display: none;
     }
     
 }
-/* Mobile Responsive */
-@media (max-width:739px) {
+/* Mobile Responsive <740px */
+@media (max-width:46.1875em) {
     #header{
         overflow: hidden;
     }
