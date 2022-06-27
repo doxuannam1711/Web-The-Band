@@ -1,0 +1,81 @@
+/* PC Responsive */
+@media (min-width:1024px){
+    #header .mobile-menu-btn{
+        display: none;
+    }
+}
+/* Tablet & Mobile Responsive */
+@media (max-width:1023px){
+    .btn{
+        height: 47px;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+    #footer .social-list{
+        font-size: 40px;
+    }
+    #footer .social-list a{
+        margin: 0 8px;
+    }
+    #footer .copyright a{
+        display: inline-block;
+        padding: 12px 0;
+    }
+}
+
+/* Tablet Responsive */
+@media (min-width:740px) and (max-width:1023px){
+    #header .mobile-menu-btn{
+        display: none;
+    }
+    
+}
+/* Mobile Responsive */
+@media (max-width:739px) {
+    #header{
+        overflow: hidden;
+    }
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    .s-mb-32{
+        margin-bottom: 32px !important;
+    }
+    #header .search-btn{
+        display: none;
+    }  
+    #nav{
+        display: block;
+    }
+    #nav li{
+        display:block;
+    }
+    #nav li a{
+        padding:1px 24px;
+    }
+    #nav>li:first-child{
+        /*Nút Home thành inline-bolock 
+        để nó không chiếm toàn chiều ngang*/
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;/*Trả về mặc định*/
+        background-color: #333;
+    }
+    #nav>li>.subnav>li>a{
+        color:#fff;
+        padding: 5px 41px
+    }
+    
+    #content .member-avatar{
+        width:60%;
+    }
+}
