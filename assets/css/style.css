@@ -172,17 +172,17 @@ html{
     position: relative;
     margin-top: 46px;
     padding-top:50%;/*tự động điều chỉnh chiều cao bằng 50% chiều rộng của chính nó */
-    background: url('https://raw.githubusercontent.com/doxuannam1711/Web-The-Band/main/assets/img/slider/slider_image_1.jpg') top center / cover no-repeat;
+    background: url('../img/slider/slider_image_1.jpg') top center / cover no-repeat;
 }
 #slider .text-content{
     position: absolute;
     color:#fff;
     text-align: center;
     bottom:47px;
-
+    text-shadow: 1px 1px 1px #000;
+    /* Căn giữa cách 1*/
     left:50%;
     transform: translateX(-50%);
-
     /* width:100%; Căn giữa cách 2*/
 }
 #slider .text-heading{
