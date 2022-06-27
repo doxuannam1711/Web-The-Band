@@ -71,6 +71,10 @@ html{
     text-decoration: none;
     margin-bottom: 16px;
     border: none;
+    /* Bỏ đi style mặc định mà được cái trình duyệt Chrome áp vào */
+    appearance: none;
+    /* Bỏ đi style mặc định mà được cái trình duyệt Safari áp vào */
+    -webkit-appearance: none;
 }
 /*Main*/
 #main{
@@ -168,7 +172,7 @@ html{
     position: relative;
     margin-top: 46px;
     padding-top:50%;/*tự động điều chỉnh chiều cao bằng 50% chiều rộng của chính nó */
-    background: url(/assets/img/slider/slider_image_1.jpg) top center / cover no-repeat;
+    background: url(assets/img/slider/slider_image_1.jpg) top center / cover no-repeat;
 }
 #slider .text-content{
     position: absolute;
